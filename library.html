@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Library</title>
+
+    <style>
+      .container {
+        display: flex;
+        with: 100%;
+        justify-content: space-between;
+        background-color: white;
+      }
+
+      nav {
+        background-color: #333;
+        color: #fff;
+        height: 38px;
+        text-align: center;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 5px;
+        padding: 0;
+      }
+
+      nav ul li {
+        display: inline-block;
+      }
+
+      nav ul li a {
+        display: block;
+        padding: 15px;
+        color: #fff;
+        text-decoration: none;
+      }
+
+      nav ul li a:hover {
+        background-color: #555;
+      }
+
+      nav ul li a.active {
+        background-color: #555;
+      }
+
+      nav ul li a:visited {
+        color: #ccc;
+      }
+      .border {
+        border-top: 20px solid #51696f81;
+        margin-top: 20px;
+      }
+      h1 {
+        text-align: center;
+        background-color: rgb(242, 255, 127);
+        font-weight: bold;
+        font-size: 38px;
+        text-transform: uppercase;
+      }
+
+      div.gallery {
+        margin: 30px;
+        padding: 15px;
+        border: 2px solid #363333f1;
+        float: left;
+        width: 250px;
+        height: 350px;
+      }
+
+      div.gallery:hover {
+        border: 2px solid #f50606;
+      }
+
+      div.gallery img {
+        width: 100%;
+        height: 310px;
+      }
+
+      div.desc {
+        padding: 5px;
+        text-align: center;
+      }
+
+      button {
+        font-size: 20px;
+        background-color: silver;
+      }
+      button:active {
+        border: 3px solid tomato;
+        background-color: aquamarine;
+      }
+      button:hover {
+        color: white;
+      }
+      button:visited {
+        background-color: aqua;
+      }
+
+      .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        padding: 20px;
+        margin: 0;
+      }
+
+      .footer-logo img {
+        height: 50px; /* Adjust the height as per your logo size */
+      }
+
+      .footer-links ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .footer-links li {
+        display: inline-block;
+        margin: 0 10px;
+      }
+
+      .footer-links li a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      .footer-text {
+        margin-top: 10px;
+        font-size: 14px;
+        color: #fbf8f8;
+      }
+
+      .footer-text a {
+        color: #777;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- logo an info is here-->
+
+    <div class="container">
+      <div>
+        <img src="img/logo.png" alt="logo" width="150px" height="50px" />
+      </div>
+      <div>
+
+      </div>
+    </div>
+
+    <!--  Navigation Bar -->
+    <nav>
+      <ul>
+        <li><a href="main.html">Home</a></li>
+
+        <li><a href="Store.html">Store</a></li>
+
+        <li><a href="Courses.html">Courses</a></li>
+
+        <li><a href="Library.html">Library</a></li>
+
+        <li><a href="About.html">About Us</a></li>
+
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div>
+      <img
+        src="img/library_banner.png"
+        alt="library_banner"
+        width="100%"
+        height="350px"
+      />
+    </div>
+
+    <div class="border"></div>
+    <h1>Library</h1>
+
+    <!-- Upper Fixed part End Here -->
+
+    <!-- image Library -->
+
+    <!-- image 1 -->
+
+    <div class="gallery">
+      <a target="_blank" href="img/Ebooks (1).png">
+        <img src="img/Ebooks (1).png" alt="image1" />
+      </a>
+
+      <div class="desc">
+        <a href="pdf/SYNTHETIC SYMPHONY (1).pdf"><button>Preview</button></a>
+        <a href="pdf/SYNTHETIC SYMPHONY (1).pdf"><button>Download</button></a>
+      </div>
+    </div>
+
+    <!-- image 2 -->
+
+    <div class="gallery">
+      <a target="_blank" href="img/Ebooks (2).png">
+        <img src="img/Ebooks (2).png" alt="image2" />
+      </a>
+
+      <div class="desc">
+        <a href="pdf/SYNTHETIC SYMPHONY (1).pdf"><button>Preview</button></a>
+        <a href="pdf/SYNTHETIC SYMPHONY (1).pdf"><button>Download</button></a>
+      </div>
+    </div>
+
+    <!-- image 3 -->
+
+    <div class="gallery">
+      <a target="_blank" href="img/Ebooks (3).png">
+        <img src="img/Ebooks (3).png" alt="image3" />
+      </a>
+
+      <div class="desc">
+        <a href="pdf/SYNTHETIC SYMPHONY (1).pdf"><button>Preview</button></a>
+        <a href="pdf/SYNTHETIC SYMPHONY (1).pdf"><button>Download</button></a>
+      </div>
+    </div>
+    <br />
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="img/logo.png" alt="Logo" />
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <p class="footer-text">&copy; 2023 StudyDrive. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
++

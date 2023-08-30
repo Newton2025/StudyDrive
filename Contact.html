@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Store</title>
+
+    <style>
+      .container {
+        display: flex;
+        with: 100%;
+        justify-content: space-between;
+        background-color: white;
+      }
+
+      nav {
+        background-color: #333;
+        color: #fff;
+        height: 38px;
+        text-align: center;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 5px;
+        padding: 0;
+      }
+
+      nav ul li {
+        display: inline-block;
+      }
+
+      nav ul li a {
+        display: block;
+        padding: 15px;
+        color: #fff;
+        text-decoration: none;
+      }
+
+      nav ul li a:hover {
+        background-color: #555;
+      }
+
+      nav ul li a.active {
+        background-color: #555;
+      }
+
+      nav ul li a:visited {
+        color: #ccc;
+      }
+      .border {
+        border-top: 20px solid #51696f81;
+        margin-top: 20px;
+      }
+      h1 {
+        text-align: center;
+        background-color: rgb(242, 255, 127);
+        font-weight: bold;
+        font-size: 38px;
+        text-transform: uppercase;
+      }
+       input {
+        font-size: 30px;
+        background-color: silver;
+      }
+      input:active {
+        border: 3px solid tomato;
+        background-color: aquamarine;
+      }
+      input:hover {
+        color: white;
+      }
+      input:visited {
+        background-color: aqua;
+      }
+      form{
+        background-image: url(img/Gallery/img20.jpg);
+        padding: 12px;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- logo an info is here-->
+
+    <div class="container">
+      <div>
+        <img src="img/logo.png" alt="logo" width="150px" height="50px" />
+      </div>
+      <div>
+      
+      </div>
+    </div>
+
+    <!--  Navigation Bar -->
+    <nav>
+      <ul>
+        <li><a href="main.html">Home</a></li>
+
+        <li><a href="Store.html">Store</a></li>
+
+        <li><a href="Courses.html">Courses</a></li>
+
+        <li><a href="Library.html">Library</a></li>
+
+        <li><a href="About.html">About Us</a></li>
+
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    </br>
+    <br/>
+      <form>
+            first name : <input type="text" name="first_name">
+            last name : <input type="text" name="last_name"><br/>
+  
+            </br> Write Your Message : <br/>
+              <textarea rows="10" cols="100" name ="description">
+              </textarea><br/>
+ <br/> 
+          <input type="submit" value="Submit">
+          <input type="Reset" value="reset">
+           </form>
+  </body>
+</html>

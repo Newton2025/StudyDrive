@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Courses</title>
+
+    <style>
+      .container {
+        display: flex;
+        with: 100%;
+        justify-content: space-between;
+        background-color: white;
+      }
+      nav {
+        background-color: #333;
+        color: #fff;
+        height: 38px;
+        text-align: center;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 5px;
+        padding: 0;
+      }
+
+      nav ul li {
+        display: inline-block;
+      }
+
+      nav ul li a {
+        display: block;
+        padding: 15px;
+        color: #fff;
+        text-decoration: none;
+      }
+
+      nav ul li a:hover {
+        background-color: #555;
+      }
+
+      nav ul li a.active {
+        background-color: #555;
+      }
+
+      nav ul li a:visited {
+        color: #ccc;
+      }
+      .border {
+        border-top: 20px solid #51696f81;
+        margin-top: 20px;
+      }
+      h1 {
+        text-align: center;
+        background-color: rgb(242, 255, 127);
+        font-weight: bold;
+        font-size: 38px;
+        text-transform: uppercase;
+      }
+      .filter,
+      option,
+      select {
+        font-size: 16px;
+        font-family: sans-serif;
+        font-weight: bold;
+      }
+      select:hover {
+        background-color: aqua;
+      }
+
+      div.gallery {
+        margin: 30px;
+        padding: 15px;
+        border: 3px solid #363333f1;
+        float: left;
+        width: 430px;
+        height: 350px;
+      }
+
+      div.gallery:hover {
+        border: 3px solid #f30808;
+      }
+
+      div.gallery img {
+        width: 100%;
+        height: 310px;
+      }
+
+      div.desc {
+        padding: 5px;
+        text-align: center;
+      }
+      button {
+        font-size: 30px;
+        background-color: silver;
+      }
+      button:active {
+        border: 3px solid tomato;
+        background-color: aquamarine;
+      }
+      button:hover {
+        color: white;
+      }
+      button:visited {
+        background-color: aqua;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- logo an info is here-->
+
+    <div class="container">
+      <div>
+        <img src="img/logo.png" alt="logo" width="150px" height="50px" />
+      </div>
+      <div>
+
+
+      </div>
+    </div>
+
+    <!--  Navigation Bar -->
+    <nav>
+      <ul>
+        <li><a href="main.html">Home</a></li>
+
+        <li><a href="Store.html">Store</a></li>
+
+        <li><a href="Courses.html">Courses</a></li>
+
+        <li><a href="Library.html">Library</a></li>
+
+        <li><a href="About.html">About Us</a></li>
+
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div>
+      <img
+        src="img/tech_course.png"
+        alt="tech_course"
+        width="100%"
+        height="350px"
+      />
+    </div>
+
+    <div class="border"></div>
+    <h1>Courses</h1>
+
+    <!-- Upper Fixed part End Here -->
+
+    <!-- image Library -->
+
+    <!-- image 1 -->
+
+    <div class="filter">
+      <h2><u>Filter</u></h2>
+      <select name="Drop_Down">
+        <option value="text" selected>ALL</option>
+        <option value="text">C Programming</option>
+        <option value="text">Java Programming</option>
+        <option value="text">Python Programming</option>
+        <option value="text">C++ Programming</option>
+      </select>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="img/Courses (1).png">
+        <img src="img/Courses (1).png" alt="image1" />
+      </a>
+
+      <div class="desc">
+        <a target="_blank" href="Course_enrolled.html"
+          ><button>Enroll</button></a
+        >
+      </div>
+    </div>
+
+    <!-- image 2 -->
+
+    <div class="gallery">
+      <a target="_blank" href="img/Courses (2).png">
+        <img src="img/Courses (2).png" alt="image2" />
+      </a>
+
+      <div class="desc">
+        <a target="_blank" href="Course_enrolled.html"
+          ><button>Enroll</button></a
+        >
+      </div>
+    </div>
+
+    <!-- image 3 -->
+
+    <div class="gallery">
+      <a target="_blank" href="img/Courses (3).png">
+        <img src="img/Courses (3).png" alt="image3" />
+      </a>
+
+      <div class="desc">
+        <a target="_blank" href="Course_enrolled.html"
+          ><button>Enroll</button></a
+        >
+      </div>
+    </div>
+
+    <!-- image 4 -->
+
+    <div class="gallery">
+      <a target="_blank" href="img/Courses (4).png">
+        <img src="img/Courses (4).png" alt="image4" />
+      </a>
+
+      <div class="desc">
+        <a target="_blank" href="Course_enrolled.html"
+          ><button>Enroll</button></a
+        >
+      </div>
+    </div>
+  </body>
+</html>
